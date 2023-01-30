@@ -6,6 +6,10 @@ Installation:
 1. Node Js https://nodejs.org/en/
 2. VS code
 
+Tool/framework Used:
+Javascript with Testcafe
+NodeJs framework
+
 Steps to run the test:
 1. Clone or download the project in local
 2. open the project in VS code
