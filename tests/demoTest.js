@@ -40,7 +40,7 @@ test.meta({testid:'TC01', type: 'Regression'})('To verify user should able to ad
         .typeText(address.zipCode, 'AB12 3CD', { paste: true })
         .click(address.phone)
         .typeText(address.phone, '1234567891', { paste: true })
-        .click(address.shippingMethodOption)
+        //.click(address.shippingMethodOption)
         .click(address.nextButton)
     //discount amount
     const amount = await common.discoutTotal.innerText
