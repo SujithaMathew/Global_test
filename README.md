@@ -15,8 +15,12 @@ NodeJs framework
 Steps to run the test:
 1. Clone or download the project in local
 2. open the project in VS code
-3. open the Terminal inside the VS code
-4. Type testcafe chrome/firefox and enter
+3. Make sure you have installed NodeJS properly
+4. open the Terminal inside the VS code
+5. Type node --version and enter(you should see the node version  v18.13.0)
+6. Type npm --version and enter (you should see the npm version 9.4.0)
+7.  For the execution type testcafe chrome/firefox and enter
+8. You should see the results in console
 
 Note:
 1. You can see the testcafe version in package.json file -- "testcafe": "^2.2.0"
